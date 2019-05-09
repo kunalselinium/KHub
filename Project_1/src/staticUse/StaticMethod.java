@@ -17,6 +17,7 @@ public class StaticMethod {
 		}
 
 		public static void main(String[] args) {
+			System.out.println(StaticMethod.a);
 			StaticMethod.method1();
 		    StaticMethod.method2();
 		    StaticMethod.method1();
