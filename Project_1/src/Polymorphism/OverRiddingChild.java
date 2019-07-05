@@ -10,10 +10,20 @@ public class OverRiddingChild extends OverRiddingParent
 		super.arthmetic(5, 3);
 		return resc;
 	}
+	
+	
+	public static void method1(){
+		System.out.println("this is static child method");
+	}
+	
+	
 
 	public static void main(String[] args) {
 		OverRiddingChild obj=new OverRiddingChild();
-		obj.arthmetic(5, 2);
+		obj.method1();
+		OverRiddingParent obj1=new OverRiddingParent();
+		obj1.method1();
+		//obj.arthmetic(5, 2);
 		//System.out.println("Child result is "+rec);
 	}
 

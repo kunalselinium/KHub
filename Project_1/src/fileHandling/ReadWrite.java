@@ -11,7 +11,7 @@ public class ReadWrite {
 		FileReader fr=new FileReader(f1);
 		BufferedReader br=new BufferedReader(fr);
 		File f2=new File("D:\\Training Docs\\Practice\\FileHandling\\File2Write.txt");
-		 FileWriter fw=new FileWriter(f2);
+		 FileWriter fw=new FileWriter(f2, true);
 		 BufferedWriter bw=new BufferedWriter(fw);
 		 String s;
 		 while((s=br.readLine())!=null) {
