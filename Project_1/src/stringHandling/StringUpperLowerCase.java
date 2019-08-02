@@ -47,7 +47,7 @@ public class StringUpperLowerCase {
 	}
 	public static void main(String[] args) {
 		StringUpperLowerCase sul=new StringUpperLowerCase();
-		//sul.StringUpLower1();
+		sul.StringUpLower1();
 		sul.StringUpLower();
 	}
 			

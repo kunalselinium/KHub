@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringPattern {
 	
-	String s="h \bkki    jkn";
+	String s="abcde";
 	int l=s.length();
 	
 	

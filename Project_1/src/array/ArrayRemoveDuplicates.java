@@ -33,6 +33,7 @@ public class ArrayRemoveDuplicates {
 //			
 //		}
 	}
+	System.out.println(b);
 	for (int i = 0; i < b; i++) {
 		System.out.print(a[i]);
 		

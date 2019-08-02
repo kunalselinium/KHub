@@ -16,7 +16,7 @@ public class HashMap1 {
 		 hm.put(22, "Sharma");
 		 hm.put(8, "is");
 		Set<Integer> khm=hm.keySet();
-		System.out.println(khm);
+		//System.out.println(khm);
 		int l=khm.size();
 		//for (int i=0;i<l;i++){
 //		for(int e:khm){

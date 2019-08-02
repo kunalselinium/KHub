@@ -18,7 +18,9 @@ public class AmstrongCheck {
 	    while(n>0)  
 	    {  
 	    a=n%10;  
+	    //System.out.println(a);
 	    n=n/10;
+	    System.out.println(n);
 	    c=c+(a*a*a);
 	      
 	    }
